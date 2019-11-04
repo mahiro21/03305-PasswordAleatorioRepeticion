@@ -42,10 +42,9 @@ public class Main {
         do {
             char password = (char) (RND.nextInt(P_MAX - P_MIN + 1) + P_MIN);
             numero++;
-            System.out.printf("%c", password);
+            System.out.print(password);
 
         } while (numero < MAX);
-        System.out.println("");
-        System.out.println("END");
+        System.out.printf("%nEND%n");
     }
 }
